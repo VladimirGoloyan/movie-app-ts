@@ -29,6 +29,7 @@ const Sidebar = () => {
       <div className="sidebar-logo-wrapper">
         {sideBarLogos.map((logo) => (
           <Link
+            key={logo.name}
             name={logo.name}
             logo={logo.icon}
             isSelected={selectedIcon === logo.name}
@@ -41,7 +42,7 @@ const Sidebar = () => {
         {mouseOver && (
           <div className="sidebar-footer-menu">
             {sideBarFooter.map((item) => (
-              <a href="/#" className="sidebar-footer-menu-item">
+              <a key="item.name" href="/#" className="sidebar-footer-menu-item">
                 {item.name}
               </a>
             ))}

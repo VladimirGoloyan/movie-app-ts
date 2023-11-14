@@ -1,8 +1,14 @@
 import React from "react";
-import View from "./components/View/View";
+import Sidebar from "./components/Sidebar/SideBar";
+import Content from "./components/Content/Content";
 
 function App() {
-  return <View />;
+  return (
+    <>
+      <Sidebar />
+      <Content />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,30 @@
+.content {
+  background-image: url(../../assets/featured/FeaturedCoverImage.png);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.featured {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-title{
+    color: #f1f1f1;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: 8px;
+}
+
+.trending {
+  margin-left: 100px;
+}

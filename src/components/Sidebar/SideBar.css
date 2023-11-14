@@ -15,12 +15,12 @@
 
 .sidebarOpened {
   width: 250px;
-  opacity: 0.8;
+  background-color: rgba(17, 17, 17, 0.8);
 }
 
 .sidebarClosed {
   width: 100px;
-  /* opacity: 0; */
+  background-color: rgba(17, 17, 17, 0);
 }
 
 .sidebar-logo-wrapper {

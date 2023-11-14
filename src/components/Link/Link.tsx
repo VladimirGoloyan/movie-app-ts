@@ -1,7 +1,15 @@
 import React from "react";
 import "./Link.css";
 
-const Link = (props: any) => {
+type LinkProps = {
+  name: string;
+  logo: string;
+  isSelected: boolean;
+  onClick: () => void;
+  isOpen: boolean;
+};
+
+const Link: React.FC<LinkProps> = (props) => {
   const { name, logo, isSelected, onClick, isOpen } = props;
 
   return (
