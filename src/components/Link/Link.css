@@ -1,0 +1,42 @@
+.link {
+  margin: 20px 8px 8px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: flex;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #f1f1f1;
+}
+
+.link-icon {
+  display: block;
+  aspect-ratio: 1/2;
+  object-fit: contain;
+  padding: 15px;
+}
+
+.link-iconSelected {
+  transition: 0.5s;
+  background: #232a3f;
+  border-radius: 50%;
+}
+
+.link-selected-open {
+  transition: 0.5s;
+  background: #232a3f;
+  border-radius: 10px;
+}
+
+.link-text {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.link-text-selected {
+  color: #f1f1f1;
+  font-weight: 500;
+}
